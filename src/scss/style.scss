@@ -169,7 +169,7 @@ a {
   display: inline-block;
   position: relative;
   white-space: nowrap;
-  font-size: (16 / 18) * 100%;
+  font-size: calc(16 / 18) * 100%;
 
   &::before {
     content: '';
