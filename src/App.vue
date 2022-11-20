@@ -5,7 +5,7 @@ import Header from "@/components/header.vue";
 <template>
   <img style="width: 100%" src="/assets/px-image-4.jpg" alt="" />
   <Header />
-  <routr-view />
+  <router-view />
 </template>
 
 <style lang="scss">
