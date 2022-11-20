@@ -1,5 +1,25 @@
 @import './variable.scss';
 
+::-webkit-scrollbar {
+  width: 3px;
+  display: none;
+  
+  &:hover {
+    display: block;
+  }
+}
+
+::-webkit-scrollbar-track {
+  // background: rgba(0, 0, 0, 0.1);
+  // background: yellow;
+  /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #343434;
+  border-radius: 10px;
+}
+
 @font-face {
   font-family: "GT-Pressura-Mono";
   src: url('/assets/font/GT-Pressura-Mono-Regular.woff2');
